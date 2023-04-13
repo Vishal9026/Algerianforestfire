@@ -4,7 +4,8 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
-app = Flask(__name__)
+application = Flask(__name__)
+app=application
 
 ## import ridge regresor model and standaed scaler pickel
 
